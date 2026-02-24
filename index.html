@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Argyn's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Argyn's Portfolio</h1>
+  <nav>
+    <button onclick="scrollToSection('home')">Home</button>
+    <button onclick="scrollToSection('projects')">Projects</button>
+    <button onclick="location.href='https://codepen.io/Argon1008/pen/PwGoWLO'">Contact</button>
+  </nav>
+</header>
+
+<!-- HOME SECTION -->
+<section id="home" class="hero">
+  <h2>Hello, I'm <span>Argyn Karimkhan</span></h2>
+  <p>AI Student | Machine Learning | Deep Learning</p>
+  <p class="intro">An individual passionate about AI engineering, constantly learning and building innovative solutions.</p>
+  
+  <h3>Skills</h3>
+  <p>Python • Java • C# • HTML • CSS • JS • C • ML</p>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <!-- Project 1 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150?text=AI+Resume+Analyzer" alt="AI Resume Analyzer">
+      <h3>AI Resume Analyzer</h3>
+      <p>Analyze resumes using AI to evaluate skills and match candidates.</p>
+      <a href="https://ai-resume-analyzer-geu4fzyl52v8csjt4ec7b8.streamlit.app/" target="_blank">View Project</a>
+    </div>
+
+    <!-- Project 2 (GitHub example) -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150?text=GitHub+Project" alt="GitHub Project">
+      <h3>My GitHub Projects</h3>
+      <p>Various AI and programming projects.</p>
+      <a href="https://github.com/AaronG57" target="_blank">View GitHub</a>
+    </div>
+
+    <!-- Additional project cards can be added here -->
+    
+  </div>
+</section>
+
+<!-- CHATBOT -->
+<div class="chatbot">
+  <div class="chat-header">AI Assistant</div>
+  <div class="chat-body" id="chat"></div>
+  <div class="chat-input">
+    <input type="text" id="input" placeholder="Ask me something..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<footer>
+  <p>Connect with me:</p>
+  <div class="links">
+    <a href="https://github.com/AaronG57" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/karimkhan-argyn-4593092a9" target="_blank">LinkedIn</a>
+  </div>
+  <p>© 2026 Argyn Karimkhan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
